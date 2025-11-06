@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class MotherDuckCode : MonoBehaviour
 {
-    [SerializeField] private float speed = 6f;
+    [SerializeField] private float speed = 10f;
 
     private float movementX;
     private float movementY;
@@ -11,6 +11,8 @@ public class MotherDuckCode : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
+    private int fishScore;
 
     void Start()
     {
@@ -39,5 +41,11 @@ public class MotherDuckCode : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(movementX * speed, movementY * speed);
         Debug.Log(rb.linearVelocity);
+    }
+
+    public void AddFish (int value)
+    {
+        fishScore += value;
+        Debug.Log(value);
     }
 }
