@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &24214855330966059
+--- !u!1 &5026209185636154131
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,43 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3687187310303104487}
-  m_Layer: 0
-  m_Name: AllFish
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3687187310303104487
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 24214855330966059}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7949853667488295698}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &733508078338415018
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7949853667488295698}
-  - component: {fileID: 4556518824893038398}
-  - component: {fileID: 2373051128663907097}
-  - component: {fileID: 7653003117326759806}
-  - component: {fileID: 7468245370208994470}
+  - component: {fileID: 7845111229786868123}
+  - component: {fileID: 7686287805515640108}
+  - component: {fileID: 476589602134207982}
+  - component: {fileID: 7039701099381395341}
+  - component: {fileID: 8539242282462940543}
   m_Layer: 0
   m_Name: Fish
   m_TagString: Untagged
@@ -52,28 +20,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7949853667488295698
+--- !u!4 &7845111229786868123
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733508078338415018}
+  m_GameObject: {fileID: 5026209185636154131}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.650463, y: 27.510956, z: 2.6793292}
+  m_LocalPosition: {x: 48.650463, y: 35, z: 2}
   m_LocalScale: {x: 250, y: 250, z: 250}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3687187310303104487}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4556518824893038398
+--- !u!212 &7686287805515640108
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733508078338415018}
+  m_GameObject: {fileID: 5026209185636154131}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -122,14 +90,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2373051128663907097
+--- !u!95 &476589602134207982
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733508078338415018}
+  m_GameObject: {fileID: 5026209185636154131}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 36354ba26b34544fcaa491d2ff5d0bbd, type: 2}
@@ -144,25 +112,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7653003117326759806
+--- !u!114 &7039701099381395341
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733508078338415018}
+  m_GameObject: {fileID: 5026209185636154131}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a41dfc0e5974491f951c810eb7b7604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &7468245370208994470
+  fish_spawner: {fileID: 0}
+  game_area: {fileID: 0}
+  speed: 0
+--- !u!61 &8539242282462940543
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733508078338415018}
+  m_GameObject: {fileID: 5026209185636154131}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1

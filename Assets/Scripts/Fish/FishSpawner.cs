@@ -42,10 +42,10 @@ public class FishSpawner : MonoBehaviour
 
     Vector3 GetRandomPosition()
     {
-        Vector3 position = Random.insideUnitCircle.normalized;
-
-        position *= spawn_circle_radius;
-        position += game_area.transform.position;
+        float offSet = Random.Range(430, 830);
+        Vector3 position = Random.insideUnitCircle.normalized * offSet;
+        
+        position += transform.position;
 
         return position;
     }
