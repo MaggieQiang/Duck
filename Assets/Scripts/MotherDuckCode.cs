@@ -19,7 +19,7 @@ public class MotherDuckCode : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    public void Move(InputValue value)
+    public void OnMove(InputValue value)
     {
         Vector2 v = value.Get<Vector2>();
         movementX = v.x;
@@ -38,5 +38,6 @@ public class MotherDuckCode : MonoBehaviour
     void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(movementX * speed, movementY * speed);
+        Debug.Log(rb.linearVelocity);
     }
 }
