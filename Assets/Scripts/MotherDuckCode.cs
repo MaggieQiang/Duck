@@ -51,14 +51,14 @@ public class MotherDuckCode : MonoBehaviour
         Debug.Log("fish eaten: " + value);
 
         //this adds a babyDuck whenever fishScore is 2
-        if (fishScore >= 2)
+        if (fishScore%2 == 0) //if fishScore is even, then we know the player ate 2 fish
         {
             if (babyDucks != null)
                 babyDucks.addDuck();
             else
                 Debug.LogWarning("MotherDuckCode: babyDucks reference is not assigned in the Inspector.");
 
-            fishScore -= 2; //resetes score to 0
+            //fishScore -= 2; //resetes score to 0
         }
     }
 }
