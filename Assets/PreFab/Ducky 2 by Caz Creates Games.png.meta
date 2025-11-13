@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: ba8fd3215e9204e579c347e92ae002a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2489393221695717997
+    second: Ducky 2 by Caz Creates Games_0
+  - first:
+      213: -8568429741176554178
+    second: Ducky 2 by Caz Creates Games_1
+  - first:
+      213: -8133521375493173242
+    second: Ducky 2 by Caz Creates Games_2
+  - first:
+      213: 3981826681547508835
+    second: Ducky 2 by Caz Creates Games_3
+  - first:
+      213: 5465887114542564193
+    second: Ducky 2 by Caz Creates Games_4
+  - first:
+      213: -3662932812283037642
+    second: Ducky 2 by Caz Creates Games_5
+  - first:
+      213: 9205810864686370797
+    second: Ducky 2 by Caz Creates Games_6
+  - first:
+      213: -1185525466229533491
+    second: Ducky 2 by Caz Creates Games_7
+  - first:
+      213: 4418600441716510741
+    second: Ducky 2 by Caz Creates Games_8
+  - first:
+      213: -3744435265856731978
+    second: Ducky 2 by Caz Creates Games_9
+  - first:
+      213: 1963147971726371377
+    second: Ducky 2 by Caz Creates Games_10
+  - first:
+      213: 6075528909446545543
+    second: Ducky 2 by Caz Creates Games_11
+  - first:
+      213: -6520556511095778662
+    second: Ducky 2 by Caz Creates Games_12
+  - first:
+      213: 461958342310088911
+    second: Ducky 2 by Caz Creates Games_13
+  - first:
+      213: -3291932908349760990
+    second: Ducky 2 by Caz Creates Games_14
+  - first:
+      213: -6005006867502632613
+    second: Ducky 2 by Caz Creates Games_15
+  - first:
+      213: -3869814885985205935
+    second: Ducky 2 by Caz Creates Games_16
+  - first:
+      213: -5797893003946063577
+    second: Ducky 2 by Caz Creates Games_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62407d12f91c8220800000000000000
+      internalID: 2489393221695717997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 96
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d77424c82d61980800000000000000
+      internalID: -8568429741176554178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 64
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600dea8f66def1f80800000000000000
+      internalID: -8133521375493173242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 64
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ccfce254a424730800000000000000
+      internalID: 3981826681547508835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 64
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163c1b40f5bbadb40800000000000000
+      internalID: 5465887114542564193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6383fb7a306aa2dc0800000000000000
+      internalID: -3662932812283037642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 64
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def001bf43c91cf70800000000000000
+      internalID: 9205810864686370797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 64
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc49531aeda2c8fe0800000000000000
+      internalID: -1185525466229533491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51095e4e0b5025d30800000000000000
+      internalID: 4418600441716510741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 32
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b40a2ee6f7190cc0800000000000000
+      internalID: -3744435265856731978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 32
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a6748dda08e3b10800000000000000
+      internalID: 1963147971726371377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7808d268a5d905450800000000000000
+      internalID: 6075528909446545543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92964a86645285a0800000000000000
+      internalID: -6520556511095778662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0db6e2aa4396600800000000000000
+      internalID: 461958342310088911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ad4651674b052d0800000000000000
+      internalID: -3291932908349760990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5179b4e11ee9aca0800000000000000
+      internalID: -6005006867502632613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15145564dd7ab4ac0800000000000000
+      internalID: -3869814885985205935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ducky 2 by Caz Creates Games_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729821e080fb98fa0800000000000000
+      internalID: -5797893003946063577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b5c3f3f34e845405b8c829bef824f22b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ducky 2 by Caz Creates Games_0: 2489393221695717997
+      Ducky 2 by Caz Creates Games_1: -8568429741176554178
+      Ducky 2 by Caz Creates Games_10: 1963147971726371377
+      Ducky 2 by Caz Creates Games_11: 6075528909446545543
+      Ducky 2 by Caz Creates Games_12: -6520556511095778662
+      Ducky 2 by Caz Creates Games_13: 461958342310088911
+      Ducky 2 by Caz Creates Games_14: -3291932908349760990
+      Ducky 2 by Caz Creates Games_15: -6005006867502632613
+      Ducky 2 by Caz Creates Games_16: -3869814885985205935
+      Ducky 2 by Caz Creates Games_17: -5797893003946063577
+      Ducky 2 by Caz Creates Games_2: -8133521375493173242
+      Ducky 2 by Caz Creates Games_3: 3981826681547508835
+      Ducky 2 by Caz Creates Games_4: 5465887114542564193
+      Ducky 2 by Caz Creates Games_5: -3662932812283037642
+      Ducky 2 by Caz Creates Games_6: 9205810864686370797
+      Ducky 2 by Caz Creates Games_7: -1185525466229533491
+      Ducky 2 by Caz Creates Games_8: 4418600441716510741
+      Ducky 2 by Caz Creates Games_9: -3744435265856731978
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
