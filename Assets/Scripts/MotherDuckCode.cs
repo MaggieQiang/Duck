@@ -51,7 +51,7 @@ public class MotherDuckCode : MonoBehaviour
     public void IncreaseScore (int value)
     {
         fishScore += value;
-        Debug.Log("fish eaten: " + value);
+        Debug.Log("fish eaten: " + fishScore);
 
         if (fishScore%fishPerDuckling == 0) //if fishScore%2 is zero, then fishScore is even, so we know the player ate 2 more fish
         {
