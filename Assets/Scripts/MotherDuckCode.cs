@@ -12,7 +12,9 @@ public class MotherDuckCode : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    private int fishScore;
+    private int fishScore = 0; //is this the same as fish_count?
+    public BabyDucksCode babyDucks;  
+
 
     void Start()
     {
@@ -43,9 +45,20 @@ public class MotherDuckCode : MonoBehaviour
         Debug.Log(rb.linearVelocity);
     }
 
-    public void AddFish (int value)
+    public void IncreaseScore (int value)
     {
         fishScore += value;
-        Debug.Log(value);
+        Debug.Log("fish eaten: " + value);
+
+        //this adds a babyDuck whenever fishScore is 2
+        if (fishScore >= 2)
+        {
+            if (babyDucks != null)
+                babyDucks.addDuck();
+            else
+                Debug.LogWarning("MotherDuckCode: babyDucks reference is not assigned in the Inspector.");
+
+            fishScore -= 2; //resetes score to 0
+        }
     }
 }

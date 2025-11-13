@@ -12,7 +12,8 @@ public class FishCode : MonoBehaviour
     
     void Update()
     {
-        if (game_area == null || fish_spawner == null) return;
+       if (game_area == null || fish_spawner == null)
+            return;
        Move();
     }
 
@@ -30,7 +31,8 @@ public class FishCode : MonoBehaviour
     void RemoveFish()
     {
         Destroy(gameObject);
-        fish_spawner.fish_count -= 1;
+        if (fish_spawner != null) //this is to prevent some possible errors
+            fish_spawner.fish_count -= 1;
 
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -38,7 +40,10 @@ public class FishCode : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             MotherDuckCode player = other.gameObject.GetComponent<MotherDuckCode>();
-            player.AddFish(1);
+            if (player != null) //preventing errors
+                player.IncreaseScore(1);
+            if (fish_spawner != null)
+                fish_spawner.fish_count -= 1; //reduce fish count to have live count of fish
             Destroy(gameObject);
         }
     }
