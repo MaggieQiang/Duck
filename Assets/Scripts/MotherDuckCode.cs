@@ -13,7 +13,10 @@ public class MotherDuckCode : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     private int fishScore = 0; //is this the same as fish_count?
-    public BabyDucksCode babyDucks;  
+    public BabyDucksCode babyDucks;
+
+    private int fishPerDuckling = 2;
+    private int fishPerLevel = 100; //change later
 
 
     void Start()
@@ -51,7 +54,7 @@ public class MotherDuckCode : MonoBehaviour
         Debug.Log("fish eaten: " + value);
 
         //this adds a babyDuck whenever fishScore is 2
-        if (fishScore%2 == 0) //if fishScore is even, then we know the player ate 2 fish
+        if (fishScore%fishPerDuckling == 0) //if fishScore%2 is zero, then fishScore is even, so we know the player ate 2 more fish
         {
             if (babyDucks != null)
                 babyDucks.addDuck();
@@ -60,5 +63,11 @@ public class MotherDuckCode : MonoBehaviour
 
             //fishScore -= 2; //resetes score to 0
         }
+
+        if (fishScore % fishPerLevel == 0)
+        {
+            //nextLevel();
+        }
+
     }
 }

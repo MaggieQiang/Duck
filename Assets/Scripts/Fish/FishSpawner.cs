@@ -17,12 +17,6 @@ public class FishSpawner : MonoBehaviour
     public float fastest_speed = 20.0f;
     public float slowest_speed = 1.0f;
 
-    void Start()
-    {
-        
-    }
-
-
     void Update()
     {
         MaintainPopulation();
@@ -54,7 +48,8 @@ public class FishSpawner : MonoBehaviour
         fish_count += 1;
         GameObject new_fish = Instantiate(
             fish_prefab,
-            position, Quaternion.FromToRotation(Vector3.up, (game_area.transform.position - position)),
+            position,
+            Quaternion.FromToRotation(Vector3.up, (game_area.transform.position - position)),
             gameObject.transform
         );
 

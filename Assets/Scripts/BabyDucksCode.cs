@@ -1,31 +1,56 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class BabyDucksCode : MonoBehaviour
 {
+    [Header("Setup")]
+    public GameObject babyDuckPrefab;
+    public Transform motherDuck;
+    [Header("Follow Settings")]
+    public float followSpeed = 5f;
+    public float followDistance = 1f;
+
+    private List<Transform> babyDucks = new List<Transform>(); //container of all ducks
     private int duckCount = 0;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public void addDuck()
     {
         duckCount++;
-        Debug.Log("Baby duck added! Total baby ducks: " + duckCount);
+        Debug.Log("Baby duck added! Total: " + duckCount);
 
-        //todo: instantiate baby duck and make it follow the mother, etc.
+        GameObject newDuck = Instantiate(babyDuckPrefab);
+        Transform duckTransform = newDuck.transform;
+
+        duckTransform.position = motherDuck.position - motherDuck.up * (1f + duckCount);
+        babyDucks.Add(duckTransform);
     }
 
     public void removeAllDucks()
     {
-        //if Player level gets increased: set duckCount = 0;
+        foreach (Transform duck in babyDucks) //advanced for loop
+            Destroy(duck.gameObject);
+
+        babyDucks.Clear(); //clears the list
+        duckCount = 0;
+    }
+
+    void Update()
+    {
+        FollowChain();
+    }
+
+    private void FollowChain()
+    {
+        if (babyDucks.Count == 0) return;
+
+        for (int i = 0; i < babyDucks.Count; i++)
+        {
+            Transform duck = babyDucks[i];
+            Transform target = (i == 0) ? motherDuck : babyDucks[i - 1];
+            Vector3 desiredPos = target.position - target.up * followDistance;
+
+            duck.position = Vector3.Lerp(duck.position, desiredPos, followSpeed * Time.deltaTime); //to make the process smoother
+            duck.up = Vector3.Lerp(duck.up, target.up, followSpeed * Time.deltaTime);
+        }
     }
 }
