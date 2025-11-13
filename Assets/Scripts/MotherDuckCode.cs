@@ -45,7 +45,7 @@ public class MotherDuckCode : MonoBehaviour
     void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(movementX * speed, movementY * speed);
-        Debug.Log(rb.linearVelocity);
+        //Debug.Log(rb.linearVelocity);
     }
 
     public void IncreaseScore (int value)
@@ -53,7 +53,6 @@ public class MotherDuckCode : MonoBehaviour
         fishScore += value;
         Debug.Log("fish eaten: " + value);
 
-        //this adds a babyDuck whenever fishScore is 2
         if (fishScore%fishPerDuckling == 0) //if fishScore%2 is zero, then fishScore is even, so we know the player ate 2 more fish
         {
             if (babyDucks != null)
