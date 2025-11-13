@@ -1260,6 +1260,93 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1206352744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1206352746}
+  - component: {fileID: 1206352745}
+  m_Layer: 0
+  m_Name: Edge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!68 &1206352745
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206352744}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.5, y: 0}
+  - {x: -0.4984697, y: 0.07132557}
+  - {x: -0.36834437, y: 0.20831057}
+  - {x: -0.12997808, y: 0.28257266}
+  - {x: 0.1337046, y: 0.2820686}
+  - {x: 0.37425196, y: 0.2072285}
+  - {x: 0.49425405, y: 0.06221849}
+  - {x: 0.49428555, y: -0.08131608}
+  - {x: 0.36437023, y: -0.21639565}
+  - {x: 0.12950327, y: -0.2902943}
+  - {x: -0.12886496, y: -0.28886652}
+  - {x: -0.36414313, y: -0.22036079}
+  - {x: -0.49231976, y: -0.07832812}
+  - {x: -0.5010027, y: 0.005024351}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!4 &1206352746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206352744}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.024044786, z: -0, w: 0.999711}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3229.9324, y: 3229.9324, z: 16.149662}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -2.756, z: 0}
 --- !u!1 &1209088559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,3 +2009,4 @@ SceneRoots:
   - {fileID: 1100860556}
   - {fileID: 262050190}
   - {fileID: 35092978}
+  - {fileID: 1206352746}
