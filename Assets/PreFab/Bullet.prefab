@@ -271,4 +271,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 300
   rb: {fileID: 6731516555193269730}
-  target: {fileID: -2713136989777475183, guid: 70c03b71f268548789ecd4f3410797de, type: 3}
+  damage: 25

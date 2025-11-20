@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 7986821625400759327}
   - component: {fileID: 7500670374082129279}
   - component: {fileID: -2713136989777475183}
-  - component: {fileID: 5115163936494035747}
   - component: {fileID: 5703127982325354558}
   - component: {fileID: 3662621214556341755}
   - component: {fileID: 492890976105459286}
+  - component: {fileID: 7402975179917292271}
   m_Layer: 0
   m_Name: Shark
   m_TagString: Untagged
@@ -161,19 +161,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3, y: 1.9}
   m_EdgeRadius: 0
---- !u!114 &5115163936494035747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5320011067546917829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57b538ddea346224ea0e97b128747610, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
 --- !u!114 &5703127982325354558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,3 +215,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7402975179917292271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5320011067546917829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd8b11aebf94840989b1b12e6dba687d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
