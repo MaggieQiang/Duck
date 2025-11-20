@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
     //public int damage;
     public Rigidbody2D rb;
     //public Collider2D target; //was gonna use this to save sharks prefab
-    public int damage = 100;
+    public int damage = 25;
 
     // Use this for initialization
     void Start()
