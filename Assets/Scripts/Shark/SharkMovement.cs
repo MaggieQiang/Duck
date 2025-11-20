@@ -39,7 +39,7 @@ public class SharkMovement : MonoBehaviour
         {
             return;
         }
-        Quaternion targetRotation = Quaternion.LookRotation(transform.forward, _targetDirection);
+        Quaternion targetRotation = Quaternion.LookRotation(transform.forward, _targetDirection) * Quaternion.Euler(0,0,-90);
         Quaternion rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, _rotationSpeed * Time.deltaTime);
 
         rd.SetRotation(rotation);
@@ -53,7 +53,7 @@ public class SharkMovement : MonoBehaviour
         }
         else
         {
-            rd.linearVelocity = transform.up * _speed;
+            rd.linearVelocity = -transform.right * _speed;
         }
     }
 }
