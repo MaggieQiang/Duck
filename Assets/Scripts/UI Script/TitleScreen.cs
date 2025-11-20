@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class TitleScreen : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //
@@ -15,20 +14,29 @@ public class TitleScreen : MonoBehaviour
 
     }
 
-    public void GoToNextScene()
+    public void GoToHome()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("HomePage");
     }
 
+    public void GoToPlay()
+    {
+        SceneManager.LoadScene("Main Game Scene");
+    }
     public void QuitGame()
     {
         Application.Quit();
         Debug.Log("quit");
     }
 
-    public void GoToLastScene()
+    public void GoToCredit()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("Credit");
+    }
+
+    public void GoToGameOver()
+    {
+        SceneManager.LoadScene("GameOver");
     }
 
 }
