@@ -7,6 +7,7 @@ public class MotherDuckCode : MonoBehaviour
 
     private float movementX;
     private float movementY;
+    private bool m_FacingRight = true;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -31,15 +32,23 @@ public class MotherDuckCode : MonoBehaviour
         Vector2 v = value.Get<Vector2>();
         movementX = v.x;
         movementY = v.y;
+
+
     }
 
     void Update()
     {
         animator.SetBool("isMoving", movementX != 0f || movementY != 0f);
-        if (movementX != 0f)
-        {
-            spriteRenderer.flipX = movementX < 0f;
-        }
+        //if (movementX != 0f)
+        //{
+        //    spriteRenderer.flipX = movementX < 0f;
+        //}
+
+        //rewrote this way so FirePoint can rotate with player as well
+        if (movementX > 0 && !m_FacingRight)
+            Flip();
+        else if (movementX < 0 && m_FacingRight)
+            Flip();
     }
 
     void FixedUpdate()
@@ -68,5 +77,11 @@ public class MotherDuckCode : MonoBehaviour
             //nextLevel();
         }
 
+    }
+
+    private void Flip() {
+        //switch the way the player (and FirePoint) is labelled as facing.
+        m_FacingRight = !m_FacingRight;
+        transform.Rotate(0f, 180f, 0f);
     }
 }
