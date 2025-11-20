@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SharkCode : MonoBehaviour
+public class SharkSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject _enemyPrefab;
     [SerializeField] private float _minimumSpawnTime;

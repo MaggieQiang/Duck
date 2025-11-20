@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d456a3190dd734f0d96c88275145ce8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerAwarenessDistance: 5
+  _playerAwarenessDistance: 100
 --- !u!114 &3662621214556341755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0ab48183722488eb88a4e4a44d06d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 1
+  _speed: 100
   _rotationSpeed: 100
 --- !u!50 &492890976105459286
 Rigidbody2D:

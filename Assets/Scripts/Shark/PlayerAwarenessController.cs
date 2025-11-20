@@ -12,7 +12,18 @@ public class PlayerAwarenessController : MonoBehaviour
 
     private void Awake()
     {
-        _player = FindFirstObjectByType<MotherDuckCode>().transform;
+        if (_player == null)
+        {
+            MotherDuckCode motherDuck = FindFirstObjectByType<MotherDuckCode>();
+            if (motherDuck != null)
+            {
+                _player = motherDuck.transform;
+            }
+            else
+            {
+                Debug.LogError("PlayerAwarenessController: Cannot find MotherDuckCode in scene!");
+            }
+        }
     }
 
     void Update()
