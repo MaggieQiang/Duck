@@ -56,4 +56,8 @@ public class SharkMovement : MonoBehaviour
             rd.linearVelocity = -transform.right * _speed;
         }
     }
+
+    //OnCollision check for layer or tag for a duck. if so destroy game object. 
+
+
 }
