@@ -10,8 +10,10 @@ public class Shooting : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) //Left Click
-            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation); //Shoot();
-
+        if (Input.GetMouseButtonDown(0))
+        {
+            Audio.Instance.ShootSound();
+            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        }
     }
 }
